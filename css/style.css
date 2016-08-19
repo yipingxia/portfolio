@@ -29,6 +29,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:300';
+
+
 /* General
 ==================================================*/
 
@@ -38,6 +41,10 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
     color: #999
+}
+p {
+    font-size: 1.3em;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 footer {
     margin-top: 80px;
@@ -753,21 +760,22 @@ b i:first-child {
     position: relative;
     overflow: hidden;
     display: block;
+    padding:2px;
 }
 
 .portfolio_item .portfolio_item_hover {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .8);
+    top: 8%;
+    left: 8%;
+    height: 84%;
+    width: 84%;
+    background-color: rgba(256, 256, 256, .9);
     -webkit-transform: translate(-100%);
     transform: translate(-100%);
     opacity: 0;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-}
+    }
 
 .portfolio_item .portfolio_item_hover .item_info {
     text-align: center;
@@ -783,7 +791,8 @@ b i:first-child {
 
 .portfolio_item .portfolio_item_hover .item_info span {
     display: block;
-    color: #fff;
+/*    color: #fff;
+*/   color: black; 
     font-size: 18px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
@@ -795,11 +804,10 @@ b i:first-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: white;
-    background: linear-gradient(-75deg, #FFD800 0%, #FFD800 30%, #F6F6F6 30%, #F6F6F6 33%, #FFD800 33%, #FFD800 35%, #F6F6F6 35%, #F6F6F6 85%, #FFD800 85%, #FFD800 100%);
+    background: linear-gradient(-75deg, #E9C1B0 0%, #E9C1B0 25%, #D4D8DB 25%, #D4D8DB 28%, #E9C1B0 28%, #E9C1B0 35%, #6B9390 35%, #6B9390 85%, #E9C1B0 85%, #E9C1B0 100%);
     padding: 10px 20px;
 /*    border-radius: 25px;
-*/    color: black;
+*/    color: white;
     margin-top: 10px;
     -webkit-transform: translateX(-100px);
     transform: translateX(-100px);
