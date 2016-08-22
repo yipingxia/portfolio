@@ -907,7 +907,7 @@ b i:first-child {
 .portfolio-head {
     text-align: center;
     background-color: #E9C1B0;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .portfolio-head h1 {
@@ -986,7 +986,7 @@ b i:first-child {
 }
 
 .portfolio-step:hover .portfolio-step_hover {
-    opacity: 0.6;
+    opacity: 0.8;
     background: linear-gradient(90deg, #CDCDCD 0%, #CDCDCD 50%, #F6F6F6 50%, #F6F6F6 100%);
 }
 
@@ -995,7 +995,9 @@ b i:first-child {
 }
 
 .portfolio-step:hover .step-info p {
-    opacity: 0.9;
+    opacity: 1;
+    font-size: 1.3em;
+    text-align: justify;
 }
 
 /* footer
