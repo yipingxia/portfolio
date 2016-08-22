@@ -475,7 +475,7 @@ b i:first-child {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #999;
-    line-height: 1.7
+    line-height: 1.7;
 }
 
 
@@ -717,6 +717,10 @@ b i:first-child {
 
 /* portfolio section
 ==================================================*/
+.bnw img {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
 
 .portfolio .categories-grid span {
     font-size: 30px;
