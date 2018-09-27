@@ -250,7 +250,7 @@ h5 {
 }
 
 .box-logo {
-    display: block;
+    /*display: block;*/
     padding: 20px;
 }
 
@@ -1010,11 +1010,12 @@ b i:first-child {
 footer {
     padding: 8px 0;
     text-align: center;
-    background: #ccc;
+    background: #fff;
 }
 
 .copyright {
-    color: white;
+    color: #333;
+    font-size: 1em;
     margin-bottom: 0;
 }
 
@@ -1074,11 +1075,11 @@ footer img {
 
 .top-bar {
     color: white;
-    padding: 80px 0 40px;
+    padding: 40px 0 40px;
     background-size: cover;
 /*  background-color: #eee;
 */    
-    background: linear-gradient(75deg, #FFBF00 0%, #FFBF00 21%, #F8F8F8 21%, #F8F8F8 22%, #AE310D 22%, #AE310D 35%, #863717 35%, #863717 40%, #549491 40%, #549491 41%, #FFBF00 41%, #FFBF00 55%, #F05B47 55%, #F05B47 61%, #AE310D 61%, #AE310D 80%, #F8F8F8 80%, #F8F8F8 85%, #FFD800 85%, #FFD800 87%, #FFBF00 87%, #FFBF00 90%);
+    background: linear-gradient(75deg, #FFBF00 0%, #FFBF00 21%, #F8F8F8 21%, #F8F8F8 22%, #AE310D 22%, #AE310D 35%, #863717 35%, #863717 40%, #549491 40%, #549491 40%, #FFBF00 40%, #FFBF00 55%, #F05B47 55%, #F05B47 61%, #AE310D 61%, #AE310D 80%, #F8F8F8 80%, #F8F8F8 85%, #FFD800 85%, #FFD800 87%, #FFBF00 87%, #FFBF00 90%);
     background-attachment: fixed;
     background-position: center center;
     text-align: center;
