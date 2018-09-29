@@ -30,6 +30,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans:300';
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville';
 
 
 /* General
@@ -43,12 +44,10 @@ body {
     color: #999
 }
 p {
-    font-size: 1.3em;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.0em;
+    font-family: 'Libre Baskerville', serif;
 }
-footer {
-    margin-top: 80px;
-}
+
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -252,6 +251,7 @@ h5 {
 .box-logo {
     /*display: block;*/
     padding: 20px;
+    position: center;
 }
 
 .box-primary-nav-trigger {
@@ -808,7 +808,8 @@ b i:first-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background: linear-gradient(-75deg, #E9C1B0 0%, #E9C1B0 25%, #D4D8DB 25%, #D4D8DB 28%, #E9C1B0 28%, #E9C1B0 35%, #6B9390 35%, #6B9390 85%, #E9C1B0 85%, #E9C1B0 100%);
+    background-color: #ffbf00;
+ /*   background: linear-gradient(-75deg, #E9C1B0 0%, #E9C1B0 25%, #D4D8DB 25%, #D4D8DB 28%, #E9C1B0 28%, #E9C1B0 35%, #6B9390 35%, #6B9390 85%, #E9C1B0 85%, #E9C1B0 100%);*/
     padding: 10px 20px;
 /*    border-radius: 25px;
 */    color: white;
@@ -983,7 +984,7 @@ b i:first-child {
 
 .portfolio-step .portfolio-step_hover .step-info p {
     display: block;
-    color: black;
+    color: #666;
     font-size: 1em;
     padding: 50px;
     opacity: 0;
@@ -1000,7 +1001,7 @@ b i:first-child {
 
 .portfolio-step:hover .step-info p {
     opacity: 1;
-    font-size: 1.3em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
@@ -1009,14 +1010,18 @@ b i:first-child {
 
 footer {
     padding: 8px 0;
-    text-align: center;
+    text-align: right;
     background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .copyright {
-    color: #333;
-    font-size: 1em;
-    margin-bottom: 0;
+    color: #999;
+    font-family: Poppins;
+    font-size: 0.9em;
+    padding-right: 20px;
 }
 
 footer img {
@@ -1032,7 +1037,7 @@ footer img {
     height: 40px;
     width: 40px;
     position: fixed;
-    bottom: 45px;
+    bottom: 80px;
     line-height: 40px;
     font-size: 20px;
     right: 10px;
@@ -1109,6 +1114,10 @@ footer img {
 .top-bar p a:focus {
     color: #FFD800;
     text-decoration: none;
+}
+
+.description {
+    padding: 20px;
 }
 
 .social-ul {
@@ -1384,7 +1393,7 @@ textarea:focus {
         font-size: 12px;
     }
     .main-container {
-        padding: 50px 0;
+        padding: 80px 0;
     }
 }
 
