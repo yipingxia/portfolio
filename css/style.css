@@ -54,10 +54,15 @@ body {
     font-size: 100%;
     }
 
+:root{
+    font-size: 62.5%;
+}
+
 
 p {
-    font-size: 1.0em;
+    font-size: 1.4rem;
     font-family: 'Montserrat', serif;
+
 }
 
 .no-padding {
@@ -70,8 +75,12 @@ p {
     padding-right: 0;
 }
 
+.container {
+    width: 80vw;
+}
+
 .main-container {
-    padding: 100px 0;
+    padding: 120px 0;
 }
 
 .center {
@@ -88,15 +97,15 @@ a {
 }
 
 .h-80 {
-    height: 80px
+    height: 8rem;
 }
 
 .h-30 {
-    height: 30px
+    height: 3rem;
 }
 
 .h-10 {
-    height: 10px
+    height: 1rem;
 }
 
 .color {
@@ -116,34 +125,36 @@ em {
 
 h1 {
     color: #333;
-    font-size: 5em;
+    font-size: 4.8rem;
     line-height: 1.2em;
     /*text-transform: uppercase;*/
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 4.0rem;
+    line-height: 1.5em;
     /*text-transform: uppercase;*/
     color: #3C3C3C;
 }
 
 h3 {
-	font-family: 'Montserrat', serif;
-	font-size: 2em;
+	/*font-family: 'Montserrat', serif;*/
+	font-size: 3.2rem;
     color: #999;
     line-height: 1.5em;
 }
 
 h4 {
-    font-family: 'Montserrat', serif;
+    /*font-family: 'Montserrat', serif;*/
     color: #999;
-    font-size: 2em;
+    font-size: 2.1rem;
     line-height: 1.5em;
 
 }
 
 h5 {
     color: #ffbf00;
+    font-size: 1.6rem;
 }
 
 
@@ -1416,6 +1427,33 @@ textarea:focus {
 
 /* single project page
 ==================================================*/
+.page-info {
+    margin: 0;
+    margin-top: 4em;
+}
+
+.page-content p {
+    font-size: 1.6rem;
+    padding-right: 1em;
+    padding-top: 0.5em;
+}
+
+.page-content a {
+    color: #ffbf00;
+    font-size: 1.6rem;
+     padding-top: 1em;
+}
+
+.img-responsive {
+    width: 100%;
+    position: relative;
+    -moz-box-shadow: 0px 4px 32px rgba(0, 0, 0,0.1);
+    -webkit-box-shadow: 0px 4px 32px rgba(0, 0, 0, .1);
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, .1);
+    padding: 10px;
+    background: white;
+}
+
 
 .cat-ul {
     padding-left: 0;
@@ -1432,6 +1470,7 @@ textarea:focus {
 ==================================================*/
 
 @media (max-width: 991px) {
+  
     .portfolio .categories-grid span {
         margin-bottom: 0;
         text-align: center;
@@ -1497,4 +1536,5 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+
 }

@@ -76,5 +76,6 @@ $(window).load(function () {
           panel.style.display = "block";
         }
       });
+
     }
 });
