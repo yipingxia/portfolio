@@ -1436,6 +1436,7 @@ textarea:focus {
     font-size: 1.6rem;
     padding-right: 1em;
     padding-top: 0.5em;
+    
 }
 
 .page-content a {
@@ -1444,7 +1445,7 @@ textarea:focus {
      padding-top: 1em;
 }
 
-.img-responsive {
+.img-content {
     width: 100%;
     position: relative;
     -moz-box-shadow: 0px 4px 32px rgba(0, 0, 0,0.1);
