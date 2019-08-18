@@ -47,6 +47,20 @@ body {
     line-height: 1.8;
     color: #666
 }
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+figcaption{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: #999;
+
+}
+
+
 /*Language
 ==================================================*/
 :lang(zh-Hans) 	{
@@ -1442,9 +1456,10 @@ textarea:focus {
 
 .page-content a {
     color: #ffbf00;
-    font-size: 1.6rem;
-     padding-top: 1em;
+    font-size: 1.5rem;
+    padding-top: 1em;
 }
+
 
 .img-content {
     width: 100%;
