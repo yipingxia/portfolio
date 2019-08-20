@@ -132,6 +132,10 @@ em {
     color: #fff;
 }
 
+mark {
+    background-color: #FFEF4D;
+}
+
 
 
 /* typography
@@ -1460,6 +1464,12 @@ textarea:focus {
     padding-top: 1em;
 }
 
+
+.page-content mark {
+    color: #444;
+    background-color: #EBEDEF;
+
+}
 
 .img-content {
     width: 100%;
