@@ -118,7 +118,7 @@
                 </div>
             </section>
 
-           <!-- content sub section 1-->
+           <!-- content sub section-->
             <section>
                 <div class="row page-info">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -126,32 +126,65 @@
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <div class="page-content">
-                            <p>As part of the preliminary research phase, I created a survey and distributed it among my collegues, friends in Singapore as well as back in China, to understand better about money and themselves.  </p>  
-                        
-                        <figure>
-                            <img src="img/work-pfm/part1-survey.jpg" class="img-content" id="myImg" onclick="onClick(this)">
+                            <p>
+                                The process was kicked off by doing marketing and background research on the concept of "Financial wellness", to explore the meaning of this term as well as  the different personal finance behaviours across different demographics, country and people with different lifestyles.
+                                <a href="https://drive.google.com/open?id=1TbUEzozzitqHV05RlW2RSMA7sDm0EQwJ">Here is the full background research report</a>
+                                Based on some of the findings through this research, I was able to generate a brief 
+                                <a id="myImg" onclick="document.getElementById('analysisMe').style.display='block'">financial overview on myself</a>, back in year 2017. 
+                                <br><br></p>
 
-                            <div id="myModal" class="modal">
-                                  <span class="close">&times;</span>
+                                <div id="analysisMe" class="modal">
+                                      <span class="close" onclick="document.getElementById('analysisMe').style.display='none'">&times;</span>
+
+                                      <img src="img/work-pfm/main-analysisEvaFull.jpg" class="modal-content">
+                                </div>
+
+                                <p>As geek as I am, I created an equation for measuring how well worth money can be spent on a particular category for different individuals:<br><br>
+                                    <mark id="formula">* Discretionary spending worthiness = (Satisfaction longtitude / T ) * (Level of satisfaction / cost); 
+                                    <br>T: period of finance summary review, mostly 1 month</mark>
+                                    <br>
+                                <i>*This is defined by me as a value that may determine whether an item is worth to buy, derived by the longtitude of satisfaction by purchase the item versus the cost of the product. The higher the value, more value is there to buy the product.<br>
+                                So for me, I have a high DSW value in Travel & Fitness</i>
+                                <br><br><hr>
+                                <p>In order to obtain real user data and behavioural analysis, I created a survey and distributed it among my collegues, friends in Singapore as well as back in China, to understand better about money and themselves.  
+                                </p>
+
+                                <button class="accordion"> Key demographic profiles</button>
+                                <div class="panel"> 
+                                    <p>Gen X<br>
+                                        Keep track, more analytical approach, somewhat proactive; Regular savings, mostly invest & budget; prefer cards, positive in PFM; wish to understand PFM better, Accumulate more wealth, Know more abt investment; Prob with impulse purchase, saving for retirement, scattered on others. Tend to family & finan websites. Neutral opinion on other agents for financial advisory. Save, and buy gadgets. <br>
+
+                                        Limitation: $ may not be a concern for these people unless they ‘regret’; usage and adoption time of the mobile devices are unknown. More in depth linkage & content required. More broad possible solutions. <br><br>
+
+                                        Gen Z <br>
+                                        Keep track, mostly apps, somewhat proactive; Mostly keep budget, some regular savings; prefer cards, neutral in PFM; wish to understand PFM better, Accumulate more wealth, Know more abt investment; Prob with insurance, retirement, emergency funds. Tend to family primarily. Neutral opinion on other agents for financial advisory. Save, and dinner. <br>
+
+                                        Limitation: the fact that they dun have much money/many income yet also eliminated problem regarding ‘saving’  along the way. Usage and adoption time of the mobile devices are high. Opinions can be influencial to these group. Limited solutions due to the financial limitations. However, possibility to build a longer term relationship w us. 
+                                    </p> 
+                                </div>
+
+                        <figure>
+                            <img src="img/work-pfm/part1-survey.jpg" class="img-content" onclick="document.getElementById('questionnaire').style.display='block'" id="myImg">
+
+                            <div id="questionnaire" class="modal">
+                                  <span class="close" onclick="document.getElementById('questionnaire').style.display='none'">&times;</span>
                                   <div id="caption">I. The questionnaire (full script)</div>
-                                  <img src="img/work-pfm/part1-survey-full.jpg" class="modal-content" id="img01">
+                                  <img src="img/work-pfm/part1-survey-full.jpg" class="modal-content">
                             </div>
                             <figcaption>I. The questionnaire </figcaption>
                         </figure>                            
 
 
                         <figure>
-                            <img src="img/work-pfm/part1-finding.jpg" class="img-content" id="myImg">
+                            <img src="img/work-pfm/part1-finding.jpg"  id="myImg" class="img-content" onclick="document.getElementById('finding').style.display='block'" >
 
-                            <div id="myModal" class="modal">
-                                  <span class="close">&times;</span>
-                                  <div id="caption">II. The findings (raw data)</div>
-                                  <img src="img/work-pfm/part1-finding-full.jpg" class="modal-content" id="img01">
+                            <div id="finding" class="modal">
+                                  <span class="close" onclick="document.getElementById('finding').style.display='none'">&times;</span>
+                                  <div id="caption">II. The finding (raw data)</div>
+                                  <img src="img/work-pfm/part1-finding-full.jpg" class="modal-content">
                             </div>
-                            <figcaption>II. The findings </figcaption>
+                            <figcaption>II. The finding </figcaption>
                         </figure>   
-
-
 
                         </div>
 
@@ -160,6 +193,104 @@
                 </div>
             </section>            
             
+
+           <!-- content sub section-->
+            <section>
+                <div class="row page-info">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <h4>Day 2</h4>                      
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class="page-content">
+                            <p>
+                            From the findings in the initial stages, I created some high-level interaction logic from the 
+                            <a id="myImg" onclick="document.getElementById('systemflow').style.display='block'" >system</a> and the 
+                            <a id="myImg" onclick="document.getElementById('userflow').style.display='block'" >users'</a> perspective.</p>  
+
+                            <div id="systemflow" class="modal">
+                                  <span class="close" onclick="document.getElementById('systemflow').style.display='none'">&times;</span>
+                                  <div id="caption">System flow (high level)</div>
+                                  <img src="img/work-pfm/part2-systemflow.jpg" class="modal-content">
+                            </div>
+                            <div id="userflow" class="modal">
+                                  <span class="close" onclick="document.getElementById('userflow').style.display='none'">&times;</span>
+                                  <div id="caption">User flow (high level)</div>
+                                  <img src="img/work-pfm/part2-userflow.jpg" class="modal-content">
+                            </div>
+                           
+                           <p>I've also proceeded to create two key user profiles, along with identifying the key stages of personal finance management for these two profiles. These two profiles are created based on the research findings and real user behaviours.</p>
+
+                        <button class="accordion"> User profile I: [Mainly Gen Zs] </button>
+
+                        <div class="panel">
+                            <p>People who don’t regularly keep track of their finances and who don’t mind having others to help them doing it. They tend to want to acquire more knowledge on PF and personal wealth in the form of accumulation.
+                            </p>
+                            <figure>
+                                <img src="img/work-pfm/part2-profile-choey.jpg" class="img-content">
+                                <figcaption>User profile I: Choey </figcaption>
+                            </figure>
+                        </div>
+
+                        <button class="accordion"> User profile II: [Gen Xers] </button>
+
+                        <div class="panel">
+                            <p>People who do regularly keep track of their finances, have the basic knowlegdes of personal finance (PF) managements, who would love to learn more about investments & how to overall manage PF better; wealth in form of re-generation. 
+                            </p>
+                            <figure>
+                                <img src="img/work-pfm/part2-profile-tim.jpg" class="img-content">
+                                <figcaption>User profile II: Tim </figcaption>
+                            </figure>
+                        </div>
+                        <div class="h-30"></div>
+
+                       <p>According to these two profiles, I created an overview with tangible stages of one's personal finance management: </p>
+                       <figure>
+                            <img src="img/work-pfm/part2-pfm-stages.jpg" class="img-content">
+                            <figcaption>Profile analysis: Key stages of personal finance management </figcaption>
+                            <div class="h-30"></div>
+
+                            <img src="img/work-pfm/part2-pfm-attitude.jpg" class="img-content">
+                            <figcaption>Profile analysis: Attitude towards personal finance management </figcaption>
+                            <div class="h-30"></div>
+
+                            <img src="img/work-pfm/part2-pfm-useranalysis.jpg" class="img-content">
+                            <figcaption>Profile analysis: Characteristics, opportunities, key features and approach </figcaption>
+                            <div class="h-30"></div>
+                        </figure>
+
+
+                       <p>To tie back to our potential service offerings, I decided to trim down the solution approach, starting from the tone of approach, to some of the key engagement points through a customer's journey. Thereafter generalized the common problems they are facing, and proposed a solution applicable to those problems. </p>
+                       <figure>
+                            <img src="img/work-pfm/part2-pfm-tone.jpg" class="img-content">
+                            <figcaption>Service offering: Tone of approach </figcaption>
+                            <div class="h-30"></div>
+
+                            <img src="img/work-pfm/part2-pfm-engagement.jpg" class="img-content">
+                            <figcaption>Service offering: Points of engagement (Overview) </figcaption>
+                            <div class="h-30"></div>
+
+                            <img src="img/work-pfm/part2-pfm-problems.jpg" class="img-content">
+                            <figcaption>Service offering: List of common problems </figcaption>
+                            <div class="h-30"></div>
+
+                            <img src="img/work-pfm/part2-pfm-solutions.jpg" class="img-content">
+                            <figcaption>Service offering: List of proposed solutions </figcaption>
+                            <div class="h-30"></div>
+                        </figure>
+
+                       <p>This is where I concluded with the key focus point and the overall directions of the solutions:  </p>
+                       <figure>
+                            <img src="img/work-pfm/part2-pfm-solutions-strategize.jpg" class="img-content">
+                            <figcaption>Service offering: Strategized solutions </figcaption>
+                            <div class="h-30"></div>
+                        </figure>
+
+                        </div>
+
+                        <div class="h-30"></div>
+                    </div>
+                </div>
+            </section>            
 
 
   

@@ -1468,7 +1468,15 @@ textarea:focus {
 .page-content mark {
     color: #444;
     background-color: #EBEDEF;
+}
 
+#formula {
+    display: block;
+    text-align: center;
+}
+
+.page-content i {
+    font-size: 1.2rem;
 }
 
 .img-content {
@@ -1509,7 +1517,7 @@ textarea:focus {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding: 60px 0; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -1523,7 +1531,7 @@ textarea:focus {
   margin: auto;
   display: block;
   width: 70%;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 /* Caption of Modal Image */
@@ -1532,9 +1540,10 @@ textarea:focus {
   display: block;
   width: 80%;
   max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
+  text-align: left;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 2rem 0;
 }
 
 /* Add Animation */
@@ -1558,9 +1567,9 @@ textarea:focus {
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  top: 2rem;
+  right: 2rem;
+  color: #fff;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
