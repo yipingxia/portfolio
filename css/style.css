@@ -35,7 +35,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Noto+Serif+SC|Open+Sans|Rufina|ZCOOL+XiaoWei&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Source+Sans+Pro&display=swap');
 
 /* General
 ==================================================*/
@@ -43,7 +43,7 @@
 html,
 body {
     height: 100%;
-    font-family: 'Rufina', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     line-height: 1.8;
     color: #666
 }
@@ -74,8 +74,8 @@ figcaption{
 
 
 p {
-    font-size: 1.5rem;
-    font-family: 'Montserrat', serif;
+    font-size: 1.8rem;
+    font-family: 'Source Sans Pro', serif;
 
 }
 
@@ -120,6 +120,10 @@ a {
 
 .h-80 {
     height: 8rem;
+}
+
+.h-160 {
+    height: 16rem;
 }
 
 .h-30 {
@@ -168,7 +172,7 @@ h3 {
 }
 
 h4 {
-    color: #999;
+    color: #333;
     font-size: 2.1rem;
     line-height: 1.5em;
 
@@ -547,6 +551,12 @@ b i:first-child {
     border-left: 8px solid #999;
     padding-left: 1.5em;
 }
+
+
+.textwrapper {
+    padding: 10px;
+}
+
 
 /* mouse effect */
 
