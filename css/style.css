@@ -195,6 +195,13 @@ mark {
 }
 
 
+li {
+    padding: 0.5em;
+    padding-left: 2em;
+}
+
+
+
 /* dark menu page
 ==================================================*/
 .menu-container {
@@ -266,7 +273,7 @@ h4 {
     color: #333;
     font-size: 2.8rem;
     line-height: 1.5em;
-
+    padding-right: 0.5em;
 }
 
 h5 {
@@ -1393,6 +1400,13 @@ footer img {
 }
 
 
+#content-nav {
+    position: fixed;
+    right: 3em;
+    bottom: 5em;
+}
+
+
 
 /* Image Modal 
 ==================================================*/
@@ -1553,6 +1567,12 @@ p {
     .main-container {
         padding: 80px 0;
     }
+
+    #content-nav {
+
+    bottom: 5em;
+}
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -1572,6 +1592,12 @@ p {
     .box-intro h5 {
         font-size: 12px;
     }
+
+    #content-nav {
+        position: inherit;
+    bottom: 5em;
+}
+
 }
 
 
