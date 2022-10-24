@@ -1,11 +1,25 @@
-function password() {
-    var password = "admission";
-    var x = prompt("Not all contents are available to everyone \nEnter your secret passphrase","'Open seasame'");
+
+
+function passwordOPENG() {
+    var password = "00110";
+    var x = prompt("👀 This showcase includes strategic works. \nAsk Eva for the access code:");
     if (x.toLowerCase() == password) {
-     window.location = "work-mainapp.html";
+     window.location = "work-OPENG.html";
     }
     else {
-    alert("Come back again with the correct password 🤟🏽");
+    alert("Ask Eva if you wish to see the works 🤟🏽");
+    //  window.location = "index.html";
+    }
+}
+
+function passwordBOD() {
+    var password = "000";
+    var x = prompt("👀 This showcase includes internal business insights & intelligience. \nAsk Eva for the access code:");
+    if (x.toLowerCase() == password) {
+     window.location = "work-BOD.html";
+    }
+    else {
+    alert("Ask Eva if you wish to see the works 🤟🏽");
     //  window.location = "index.html";
     }
 }
