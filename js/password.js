@@ -1,7 +1,7 @@
 
 
 function passwordOPENG() {
-    var password = "Janssen";
+    var password = "janssen";
     var x = prompt("👀 This showcase includes strategic works. \nAsk Eva for the access code:");
     if (x.toLowerCase() == password) {
      window.location = "work-OPENG.html";
@@ -13,7 +13,7 @@ function passwordOPENG() {
 }
 
 function passwordBOD() {
-    var password = "Janssen";
+    var password = "janssen";
     var x = prompt("👀 This showcase includes internal business insights & intelligience. \nAsk Eva for the access code:");
     if (x.toLowerCase() == password) {
      window.location = "work-BoD.html";
