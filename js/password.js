@@ -1,7 +1,7 @@
 
 
 function passwordOPENG() {
-    var password = "00110";
+    var password = "Janssen";
     var x = prompt("👀 This showcase includes strategic works. \nAsk Eva for the access code:");
     if (x.toLowerCase() == password) {
      window.location = "work-OPENG.html";
@@ -13,10 +13,10 @@ function passwordOPENG() {
 }
 
 function passwordBOD() {
-    var password = "000";
+    var password = "Janssen";
     var x = prompt("👀 This showcase includes internal business insights & intelligience. \nAsk Eva for the access code:");
     if (x.toLowerCase() == password) {
-     window.location = "work-BOD.html";
+     window.location = "work-BoD.html";
     }
     else {
     alert("Ask Eva if you wish to see the works 🤟🏽");
