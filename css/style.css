@@ -106,6 +106,7 @@ a {
 a:hover
 { 
     color: #F05C48;
+    cursor: crosshair;
 }
 
 .no-padding {
@@ -201,6 +202,12 @@ li {
 }
 
 
+iframe {
+    width: 100%;
+    height: 40vh;
+    border: #fafafa 8px solid;
+    border-radius: 2px;
+}
 
 /* dark menu page
 ==================================================*/
@@ -1412,24 +1419,25 @@ footer img {
 ==================================================*/
 
 #myImg {
-      cursor: pointer;
+      cursor: crosshair;
       transition: 0.3s;
     }
 
 #myImg:hover {opacity: 0.7;}
+
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding: 60px 0; /* Location of the box */
+  padding: 10em 0; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0,0.7); /* Fallback color */
+  background-color: rgb(256,256,256,0.9); /* Fallback color */
 }
 
 /* Modal Content (image) */
@@ -1470,22 +1478,23 @@ footer img {
   to {transform:scale(1)}
 }
 
+
 /* The Close Button */
 .close {
   position: absolute;
-  top: 2rem;
+  top: 8rem;
   right: 2rem;
-  color: #fff;
-  font-size: 40px;
+  color: #000;
+  font-size: 5em;
   font-weight: bold;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .close:hover,
 .close:focus {
   color: #bbb;
   text-decoration: none;
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 /* 100% Image Width on Smaller Screens */
