@@ -98,15 +98,22 @@ p {
     font-family: 'Work Sans', serif;
 }
 
+b {
+    font-weight: bold;
+    /*font-family: 'Source Sans Pro', serif;*/
+    font-family: 'Work Sans', serif;
+}
+
 a {
-    color: #E9967A;
+    color: #899bb3;
     font-size: 1.6rem;
     font-weight: bold;
 }
 a:hover
 { 
-    color: #F05C48;
+    color: #8fce00;
     cursor: crosshair;
+
 }
 
 .no-padding {
@@ -176,9 +183,6 @@ em {
     color: #fff;
 }
 
-/*mark {
-    background-color: #FFEF4D;
-}*/
 
 mark {
   margin: 0 -0.4em;
@@ -187,9 +191,9 @@ mark {
   background: transparent;
   background-image: linear-gradient(
     to right, 
-    rgba(255, 225, 0, 0.2),
-    rgba(255, 225, 0, 0.7) 94%,
-    rgba(255, 225, 0, 0.1)
+    rgba(210, 255, 19, 0.1),
+    rgba(210, 255, 19, 0.5) 94%,
+    rgba(210, 255, 19, 0.1)
   );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -290,7 +294,7 @@ h5 {
 
 
 h6 {
-    color: #767264;
+    color: #8a9b5f;
     font-size: 1.6rem;
 }
 
@@ -1310,11 +1314,13 @@ footer img {
     
 }
 
-.page-content a {
-    color: #E1CDBE;
-    /* font-size: 1.8rem; */
+/*link color*/
+/*.page-content a {
+    color: #FF355E; 
+     font-size: 1.8rem; 
     padding-top: 1em;
-}
+    text-decoration: underline;
+}*/
 
 
 .page-content mark {
@@ -1393,25 +1399,31 @@ footer img {
 #dot1 {
     background-color: coral;
     left: 16px;
-    top: 56px;
+    top: 88px;
 }
 #dot2 {
     background-color: gold;
     left: 40px;
-    top: 40px;
+    top: 72px;
 }
 #dot3 {
     background-color: greenyellow;
     left: 64px;
-    top: 24px;
+    top: 56px;
 }
 
+.prototype figcaption{
+    top: 28px;
+    position: relative;
+    text-transform: uppercase;
+}
 
 #content-nav {
     position: fixed;
     right: 3em;
     bottom: 5em;
 }
+
 
 
 
